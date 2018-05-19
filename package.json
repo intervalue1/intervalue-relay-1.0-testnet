@@ -1,0 +1,27 @@
+{
+  "name": "intervalue-relay",
+  "description": "InterValue Relay",
+  "author": "InterValue",
+  "version": "1.0.0",
+  "main": "start.js",
+  "keywords": [
+    "relay",
+    "intervalue",
+    "full node"
+  ],
+  "license": "MIT",
+  "repository": {
+    "url": "git://github.com/intervalue/intervalue-relay.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/intervalue/intervalue-relay/issues"
+  },
+  "browser": {
+    "request": "browser-request",
+    "secp256k1": "secp256k1/js"
+  },
+  "dependencies": {
+    "intervaluecore": "git+https://github.com/intervalue/intervaluecore.git"
+  }
+}
