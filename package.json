@@ -1,5 +1,5 @@
 {
-  "name": "intervalue-relay-1.0-testnet",
+  "name": "intervalue-relay",
   "description": "InterValue Relay 1.0 testnet",
   "author": "InterValue",
   "version": "1.0.0",
@@ -22,6 +22,6 @@
     "secp256k1": "secp256k1/js"
   },
   "dependencies": {
-    "intervaluecore-1.0-testnet": "git+https://github.com/intervalue/intervaluecore-1.0-testnet.git"
+    "intervaluecore": "git+https://github.com/intervalue/intervaluecore-1.0-testnet.git"
   }
 }
